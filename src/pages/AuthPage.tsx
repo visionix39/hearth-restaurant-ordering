@@ -125,11 +125,11 @@ export function AuthPage() {
             {mode === 'login' ? 'Sign in' : 'Create account'}
           </button>
 
-          <p className="muted auth-form__hint">
+          {/* <p className="muted auth-form__hint">
             Guest demo: maya@example.com / guest123
             <br />
             Admin demo: admin@hearth.com / admin123
-          </p>
+          </p> */}
         </form>
 
         <aside className="panel auth-aside">
